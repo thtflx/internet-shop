@@ -525,6 +525,91 @@ select:-webkit-autofill:focus {
 }
 
 
+/* BESTSELLERS */
+
+.bestsellers {
+    background-color: var(--soft-white);
+}
+
+.bestsellers__container {}
+
+.bestseller__title {
+    color: var(--dark-black);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    font-family: var(--museo);
+}
+
+.bestsellers__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: var(--white);
+}
+
+.bestsellers__item {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bestsellers__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.bestsellers__item-link {
+    color: var(--dark-black);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--museo);
+    text-decoration: none;
+}
+
+.bestsellers__item:hover {
+    border-bottom: 1px solid var(--orange);
+    background-color: var(--soft-white);
+}
+
+.bestsellers__products__list {}
+
+.bestsellers__products__item {}
+
+.bestsellers__product-wrapper {}
+
+.bestsellers__product__img {}
+
+.bestsellers__product__articul-wrapper {}
+
+.bestsellers__product__articul {}
+
+.bestsellers__product__title {}
+
+.bestsellers__product__info-list {}
+
+.bestsellers__product__info-item {}
+
+.bestsellers__product__info-img {}
+
+.bestsellers__product__info-text {}
+
+.bestsellers__products__buy-list {}
+
+.bestsellers__products__buy-item {}
+
+.bestsellers__products__buy-sale {}
+
+.sale {}
+
+.bestsellers__products__buy-price {}
+
+.bestsellers__products__buy-link {}
+
+
 /* SITE-FOOTER */
 
 .site-footer {
