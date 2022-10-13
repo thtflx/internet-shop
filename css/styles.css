@@ -362,6 +362,119 @@ select:-webkit-autofill:focus {
 }
 
 
+/* CATHEGORY */
+
+.cathegory {
+    padding-top: 30px;
+    background-color: var(--soft-white);
+}
+
+.cathegory__container {
+    /* display: flex;
+    align-items: center; */
+}
+
+.cathegory__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--dark-black);
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: var(--museo);
+}
+
+.cathegory__all-wrapper {
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.cathegory__first-card__wrapper {
+    padding-top: 22px;
+    padding-bottom: 336px;
+    padding-left: 24px;
+    background-image: url('../img/cathegory/Cart\ 1\ -\ besedki.jpg');
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+}
+
+.cathegory__lists {
+    display: flex;
+}
+
+.cathegory__list,
+.cathegory__list-2 {
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cathegory__item {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--museo);
+    color: var(--dark-black);
+}
+
+.cathegory__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.cathegory__list-2 {
+    margin-left: 40px;
+}
+
+.cathegory__second-card__wrapper {}
+
+.cathegory__second-card__banya {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    background-image: url('../img/cathegory/Cart\ 2\ -\ banya.jpg');
+    background-repeat: no-repeat;
+}
+
+.cathegory__second-card__perlogi {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    background-image: url('../img/cathegory/Cart\ 3\ -\ perlpgi.jpg');
+    background-repeat: no-repeat;
+}
+
+.cathegory__second-card__star {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    background-image: url('../img/cathegory/Cart\ 4\ -\ star.jpg');
+    background-repeat: no-repeat;
+}
+
+.cathegory__third-card__wrapper {}
+
+.cathegory__third-card__detskie {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-top: 22px;
+    padding-left: 24px;
+    padding-bottom: 42px;
+    background-image: url('../img/cathegory/Cart\ 5\ -\ detskie.jpg');
+    background-repeat: no-repeat;
+}
+
+.cathegory__third-card__doma {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 59px;
+    background-image: url('../img/cathegory/Cart\ 6\ -\ dom.jpg');
+    background-repeat: no-repeat;
+}
+
+
 /* SITE-FOOTER */
 
 .site-footer {
