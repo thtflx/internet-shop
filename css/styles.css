@@ -374,14 +374,24 @@ select:-webkit-autofill:focus {
     align-items: center; */
 }
 
-.cathegory__title {
-    font-weight: 600;
+.cathegory__main-title {
+    font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     color: var(--dark-black);
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-family: var(--museo);
+}
+
+.cathegory__title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-family: var(--museo);
+    color: var(--black);
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
 }
 
 .cathegory__all-wrapper {
@@ -389,11 +399,23 @@ select:-webkit-autofill:focus {
     /* justify-content: space-between; */
 }
 
+.cathegory__main-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.cathegory__main-item:not(:last-child) {
+    margin-right: 27px;
+}
+
 .cathegory__first-card__wrapper {
     padding-top: 22px;
     padding-bottom: 336px;
     padding-left: 24px;
-    background-image: url('../img/cathegory/Cart\ 1\ -\ besedki.jpg');
+    padding-right: 40px;
+    background-image: url('../img/cathegory/cathegory-bg.png');
     background-repeat: no-repeat;
     /* background-position: center center; */
 }
@@ -428,49 +450,77 @@ select:-webkit-autofill:focus {
     margin-left: 40px;
 }
 
-.cathegory__second-card__wrapper {}
+.cathegory__first-card__img {
+    margin-top: 67px;
+    margin-bottom: 0;
+}
+
+
+/* SECOND-card */
 
 .cathegory__second-card__banya {
+    display: flex;
+    align-items: center;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 24px;
-    background-image: url('../img/cathegory/Cart\ 2\ -\ banya.jpg');
+    padding-right: 19px;
+    background-image: url('../img/cathegory/cathegory-bg-2.png');
     background-repeat: no-repeat;
 }
 
 .cathegory__second-card__perlogi {
+    display: flex;
+    align-items: center;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 24px;
-    background-image: url('../img/cathegory/Cart\ 3\ -\ perlpgi.jpg');
+    padding-right: 30px;
+    background-image: url('../img/cathegory/cathegory-bg-2.png');
     background-repeat: no-repeat;
 }
 
 .cathegory__second-card__star {
+    display: flex;
+    align-items: center;
     padding-top: 18px;
     padding-bottom: 18px;
     padding-left: 24px;
-    background-image: url('../img/cathegory/Cart\ 4\ -\ star.jpg');
+    padding-right: 20px;
+    background-image: url('../img/cathegory/cathegory-bg-2.png');
     background-repeat: no-repeat;
 }
 
-.cathegory__third-card__wrapper {}
+.cathegory__second-card__banya-wrap,
+.cathegory__second-card__perlogi-wrap,
+.cathegory__second-card__star-wrap {
+    margin-right: 137px;
+}
+
+
+/* THIRD-card */
 
 .cathegory__third-card__detskie {
+    display: flex;
+    justify-content: space-between;
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 1px;
     padding-top: 22px;
     padding-left: 24px;
     padding-bottom: 42px;
-    background-image: url('../img/cathegory/Cart\ 5\ -\ detskie.jpg');
+    padding-right: 45px;
+    background-image: url('../img/cathegory/cathegory-bg-3.png');
     background-repeat: no-repeat;
 }
 
 .cathegory__third-card__doma {
+    display: flex;
+    justify-content: space-between;
     padding-top: 16px;
     padding-left: 24px;
     padding-bottom: 59px;
-    background-image: url('../img/cathegory/Cart\ 6\ -\ dom.jpg');
+    padding-right: 22px;
+    background-image: url('../img/cathegory/cathegory-bg-4.png');
     background-repeat: no-repeat;
 }
 
