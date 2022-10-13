@@ -9,6 +9,10 @@
     --orange: #FF7A1B;
     --green: #52C12A;
     --red: #FF3838;
+    --dark-black: #1F1F1F;
+    --gilroy-b: 'Gilroy bold';
+    --gilroy-300: 'Gilroy 300';
+    --museo: 'Museo Sans Cyrl 100';
 }
 
 
@@ -66,8 +70,8 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Arial", sans-serif;
-    color: var(--black);
+    font-family: 'Gilroy 300', 'Arial', sans-serif;
+    color: var(--soft-white);
     background-color: var(--white);
 }
 
@@ -154,6 +158,8 @@ select:-webkit-autofill:focus {
     text-align: center;
     white-space: nowrap;
     border-radius: 6px;
+    background-color: var(--orange);
+    color: var(--white);
 }
 
 .button:hover {
@@ -209,25 +215,26 @@ select:-webkit-autofill:focus {
     margin-right: 41px;
 }
 
-.site-header__benefit__item-img {}
-
 .site-header__benefit__search-wrapper {
     display: flex;
+}
+
+.site-header__benefit__search-button {
+    background-color: var(--yellow);
+    cursor: pointer;
+    border: 0;
 }
 
 .site-header__benefit__search-area {
     width: 602px;
     height: 45px;
+    border: 1px solid var(--sub-gray);
 }
-
-.site-header__benefit__search-button {}
 
 .site-header__contact {
     position: relative;
     top: 5px;
 }
-
-.site-header__contact-img {}
 
 .site-header__order-wrapper {
     flex-direction: column;
@@ -240,11 +247,288 @@ select:-webkit-autofill:focus {
     text-decoration: none;
 }
 
-.site-header__order-img {}
 
-.site-header__order-button {
+/* .site-header__order-button {
     background-color: var(--orange);
     color: var(--white);
+} */
+
+
+/* SITE-FOOTER */
+
+.site-footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: var(--dark-black);
+}
+
+
+/* TOP */
+
+.footer-top__container {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-top__logo-link {
+    margin-right: 98px;
+}
+
+.footer-top__address {
+    /* justify-content: space-between; */
+    margin-right: 331px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--museo);
+    color: var(--white);
+}
+
+.footer-top__time {
+    margin-right: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+
+/* MIDDLE */
+
+.footer-middle__container {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(187, 187, 187, 0.5);
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.footer-middle__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-middle__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-middle__item:not(:last-child) {
+    margin-right: 64px;
+}
+
+.footer-middle__item-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: var(--museo);
+}
+
+.footer-middle__item-partitition-link {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: var(--soft-white);
+}
+
+.footer-middle__item-partitition-link:hover {
+    color: var(--orange);
+}
+
+.footer-middle__item-partitition-link:active {
+    opacity: 0.6;
+}
+
+.footer-middle__item-partitition-link:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.footer-middle__socials-contact-wrapper {
+    margin-left: 331px;
+    margin-right: 86px;
+}
+
+.footer-middle__socials-contact__number-text {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+}
+
+.footer-middle__socials-contact__number {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--soft-white);
+}
+
+.orangered-text {
+    color: var(--orange);
+}
+
+.footer-middle__socials-contact__email {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-middle__socials-contact__socials-title {
+    margin-top: 0;
+    margin-bottom: 14px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-middle__socials-contact__socials__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-middle__socials-contact__socials__item {
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+/* .footer-middle__socials-contact__socials__item:hover {
+    color: var(--orange);
+} */
+
+.whatsapp:hover {
+    color: var(--green);
+}
+
+.youtube:hover {
+    color: var(--red);
+}
+
+.instagram:hover {
+    color: var(--orange);
+}
+
+.footer-middle__socials-contact__socials__item:not(:last-child) {
+    margin-right: 15.6px;
+}
+
+.footer-middle__info {}
+
+.footer-middle__info__text {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+}
+
+.footer-middle__info__number {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--soft-white);
+}
+
+.footer-middle__wrong-text {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.footer-middle__info__list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-middle__info__item {
+    margin: 0;
+    /* font-weight: 600; */
+    font-size: 14px;
+    line-height: 150.5%;
+    font-family: var(--museo);
+    color: var(--white);
+}
+
+
+/* BOTTOM */
+
+.footer-bottom__container {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom__public-offer-wrapper {}
+
+.footer-bottom__public-offer__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-bottom__payments__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: var(--museo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom__payments__item {
+    font-family: var(--museo);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+.footer-bottom__payments__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.footer-bottom__payments__item-link {
+    color: #808080;
+}
+
+.footer-bottom__payments__item-link:hover {
+    color: var(--orange)
 }
 
 
