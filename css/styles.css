@@ -11,6 +11,7 @@
     --green: #52C12A;
     --red: #FF3838;
     --dark-black: #1F1F1F;
+    --soft-black: #000;
     --gilroy-b: 'Gilroy bold';
     --gilroy-300: 'Gilroy 300';
     --museo: 'Museo Sans Cyrl 100';
@@ -741,6 +742,142 @@ select:-webkit-autofill:focus {
 
 
 /* promotional-models === bestsellers */
+
+
+/* RECALLS */
+
+.recalls {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: var(--soft-white);
+}
+
+.recalls__container {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.recalls__title {
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-family: var(--museo);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--dark-black);
+}
+
+.recalls__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.recalls__button:hover {
+    opacity: 0.8;
+}
+
+.recalls__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.recalls__item {
+    width: 468px;
+}
+
+.recalls__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.recall__wrapper {
+    padding: 25px;
+    background-color: var(--soft-white);
+}
+
+.recall__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recall__user {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-family: var(--museo);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 97.37%;
+    color: var(--dark-black);
+}
+
+.recall__date {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 97.37%;
+    color: var(--grey);
+    font-family: var(--museo);
+}
+
+.recall__rat {}
+
+.recall__rate-img {}
+
+.recall__hline {
+    margin-top: 0;
+    margin-bottom: 18px;
+    height: 2px;
+    background-color: var(--sub-gray);
+    border: 0;
+}
+
+.recall__hero {
+    margin: 0;
+}
+
+.recall__hero-text {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 144%;
+    color: var(--dark-black);
+    font-family: var(--museo);
+}
+
+.recall__link {
+    margin-top: 0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 144%;
+    font-family: var(--museo);
+    color: var(--orange);
+    text-decoration-line: underline;
+}
+
+.recalls__main-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: var(--museo);
+    color: var(--soft-white);
+    background-color: var(--orange);
+    padding: 10px 33px;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid var(--white);
+    border-radius: 3px;
+}
+
+.recalls__main-link:hover {
+    opacity: 0.8;
+}
 
 
 /* SITE-FOOTER */
