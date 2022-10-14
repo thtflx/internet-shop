@@ -6,6 +6,7 @@
     --white: #F9F8F3;
     --sub-gray: #E8E8E8;
     --soft-white: #FFFFFF;
+    --grey: #BBBBBB;
     --orange: #FF7A1B;
     --green: #52C12A;
     --red: #FF3838;
@@ -575,39 +576,166 @@ select:-webkit-autofill:focus {
     background-color: var(--soft-white);
 }
 
-.bestsellers__products__list {}
+.bestsellers__products__list {
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: 10px;
+    list-style: none;
+    display: flex;
+}
 
-.bestsellers__products__item {}
+.bestsellers__products__item:not(:last-child) {
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
 
-.bestsellers__product-wrapper {}
 
-.bestsellers__product__img {}
+/* CART */
 
-.bestsellers__product__articul-wrapper {}
+.bestsellers__product-wrapper {
+    width: 330px;
+    /* padding: 20px 10px 14px; */
+    padding-top: 20px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    /* padding-right: 10px; */
+    border: 2px solid var(--sub-gray);
+    background-color: var(--white);
+}
 
-.bestsellers__product__articul {}
+.bestsellers__product-wrapper:not(:last-child) {
+    /* margin-right: 1px; */
+}
 
-.bestsellers__product__title {}
+.bestsellers__product__img {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
 
-.bestsellers__product__info-list {}
+.bestsellers__product__articul-wrapper {
+    margin-top: 0;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
 
-.bestsellers__product__info-item {}
+.bestsellers__product__articul {
+    margin-right: 185px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--dark-black);
+    opacity: 0.75;
+}
 
-.bestsellers__product__info-img {}
+.bestsellers__product__title {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-family: var(--museo);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    color: var(--dark-black);
+}
 
-.bestsellers__product__info-text {}
+.bestsellers__product__info-list {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 19px;
+    list-style: none;
+}
 
-.bestsellers__products__buy-list {}
+.bestsellers__product__info-item {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+}
 
-.bestsellers__products__buy-item {}
+.bestsellers__product__info-item:not(:last-child) {
+    margin-bottom: 0;
+}
 
-.bestsellers__products__buy-sale {}
+.bestsellers__product__info-img {
+    margin: 0;
+}
 
-.sale {}
+.bestsellers__product__info-text {
+    /* position: relative; */
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--dark-black);
+    font-family: var(--museo);
+}
 
-.bestsellers__products__buy-price {}
+.square {
+    position: relative;
+    left: -19px;
+}
 
-.bestsellers__products__buy-link {}
+.bestsellers__products__buy-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.bestsellers__products__buy-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+.bestsellers__products__buy-sale {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--museo);
+    color: var(--grey);
+}
+
+.sale {
+    font-weight: 400;
+    font-size: 11.0213px;
+    line-height: 13px;
+    color: var(--black);
+    font-family: var(--museo);
+    background-color: var(--yellow);
+}
+
+.bestsellers__products__buy-price {
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: var(--museo);
+    color: var(--red);
+}
+
+.bestsellers__products__buy-link {
+    padding: 15px 40px;
+    align-items: center;
+    /* display: flex; */
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black);
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    border-radius: 5px;
+}
+
+.bestsellers__products__buy-link:hover {
+    background-color: var(--red);
+    color: var(--soft-white);
+}
+
+.bestsellers__products__buy-link:active {
+    opacity: 0.6;
+}
 
 
 /* SITE-FOOTER */
