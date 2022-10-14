@@ -532,8 +532,6 @@ select:-webkit-autofill:focus {
     background-color: var(--soft-white);
 }
 
-.bestsellers__container {}
-
 .bestseller__title {
     color: var(--dark-black);
     font-weight: 600;
@@ -585,8 +583,8 @@ select:-webkit-autofill:focus {
 }
 
 .bestsellers__products__item:not(:last-child) {
-    margin-right: 40px;
-    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -687,6 +685,7 @@ select:-webkit-autofill:focus {
 }
 
 .bestsellers__products__buy-sale {
+    text-decoration: line-through;
     margin-top: 0;
     margin-bottom: 4px;
     font-weight: 400;
@@ -736,6 +735,12 @@ select:-webkit-autofill:focus {
 .bestsellers__products__buy-link:active {
     opacity: 0.6;
 }
+
+
+/* PROMOTIONAL-MODELS */
+
+
+/* promotional-models === bestsellers */
 
 
 /* SITE-FOOTER */
