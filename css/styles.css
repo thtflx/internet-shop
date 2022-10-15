@@ -880,6 +880,91 @@ select:-webkit-autofill:focus {
 }
 
 
+/* ABOUT-US */
+
+.about-us {
+    padding-bottom: 35px;
+    background-color: var(--soft-white);
+}
+
+.about-us__container {
+    display: flex;
+    align-items: center;
+}
+
+.about-us__info__wrapper {
+    width: 732px;
+    margin-right: 68px;
+}
+
+.about-us__info__title {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--dark-black);
+    font-family: var(--museo);
+}
+
+.about-us__info__line {
+    margin-top: 0;
+    margin-bottom: 39px;
+    height: 2px;
+    background-color: var(--orange);
+    border: 0;
+}
+
+.about-us__info__text {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 158.5%;
+    align-items: center;
+    color: var(--dark-black);
+    font-family: var(--museo);
+}
+
+.about-us__info__quote-info {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0;
+    padding: 0;
+}
+
+.about-us__info__quote-icon {
+    margin-right: 18px;
+}
+
+.about-us__info__quote__comment {}
+
+.about-us__info__quote-text {
+    margin-top: 0;
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 158.5%;
+    color: var(--dark-black);
+    font-family: var(--museo);
+}
+
+.about-us__info__quote-person {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 158.5%;
+    opacity: 0.5;
+    color: var(--dark-black);
+    font-family: var(--museo);
+}
+
+.about-us__img {
+    position: relative;
+    top: 35px;
+}
+
+
 /* SITE-FOOTER */
 
 .site-footer {
