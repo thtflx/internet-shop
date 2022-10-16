@@ -1372,6 +1372,9 @@ select:-webkit-autofill:focus {
     padding-top: 60px;
     position: relative;
     background-color: var(--soft-white);
+    /* background-image: url('../img/ABOUT_COMPANY/v-1.png');
+    background-repeat: no-repeat;
+    background-position: center center; */
 }
 
 .a-c__hero__container {}
@@ -1439,9 +1442,10 @@ select:-webkit-autofill:focus {
     padding-top: 47px;
     padding-bottom: 47px;
     background-color: var(--soft-white);
+    background-image: url('../img/ABOUT_COMPANY/v-2.png');
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
 }
-
-.a-c__info__container {}
 
 .a-c__info__list {
     display: flex;
@@ -1509,6 +1513,22 @@ select:-webkit-autofill:focus {
     z-index: 10000;
     position: relative;
     top: 110px;
+}
+
+
+/* BOTTOM */
+
+.a-c__info__container-bottom {
+    justify-content: center;
+}
+
+.a-c__info-bottom {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    background-color: var(--soft-white);
+    background-image: url('../img/ABOUT_COMPANY/v-3.png');
+    background-repeat: no-repeat;
+    background-position: 20px 615px;
 }
 
 
