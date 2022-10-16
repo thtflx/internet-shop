@@ -72,8 +72,8 @@ body {
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
-    font-family: 'Gilroy 300', 'Arial', sans-serif;
-    color: var(--soft-white);
+    font-family: var(--museo);
+    color: var(--dark-black);
     background-color: var(--white);
 }
 
@@ -184,9 +184,6 @@ select:-webkit-autofill:focus {
     display: flex;
     margin: 0;
     align-items: center;
-    /* padding: 0; */
-    padding-left: 100px;
-    padding-right: 100px;
     justify-content: space-between;
 }
 
@@ -371,11 +368,6 @@ select:-webkit-autofill:focus {
     background-color: var(--soft-white);
 }
 
-.cathegory__container {
-    /* display: flex;
-    align-items: center; */
-}
-
 .cathegory__main-title {
     font-weight: 700;
     font-size: 24px;
@@ -394,11 +386,6 @@ select:-webkit-autofill:focus {
     font-weight: 600;
     font-size: 21px;
     line-height: 25px;
-}
-
-.cathegory__all-wrapper {
-    /* display: flex; */
-    /* justify-content: space-between; */
 }
 
 .cathegory__main-list {
@@ -1262,11 +1249,6 @@ select:-webkit-autofill:focus {
     cursor: pointer;
 }
 
-
-/* .footer-middle__socials-contact__socials__item:hover {
-    color: var(--orange);
-} */
-
 .whatsapp:hover {
     color: var(--green);
 }
@@ -1381,6 +1363,72 @@ select:-webkit-autofill:focus {
 
 .footer-bottom__payments__item-link:hover {
     color: var(--orange)
+}
+
+
+/* ABOUT-COMPANY page */
+
+.a-c__hero {
+    padding-top: 60px;
+    position: relative;
+}
+
+.a-c__hero__container {}
+
+.a-c__hero__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.a-c__hero__inner {
+    display: flex;
+    align-items: center;
+}
+
+.a-c__hero__inner__ellipse {
+    position: relative;
+    top: -105px;
+    margin-right: 25px;
+    width: 36px;
+    height: 35px;
+}
+
+.a-u__hero__inner__info {
+    margin-right: 84px;
+}
+
+.a-u__hero__inner-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 172.5%;
+}
+
+.a-uc__hero__inner-line {
+    position: relative;
+    left: -222px;
+    margin-top: 0;
+    margin-bottom: 16px;
+    width: 104px;
+    height: 4px;
+    border: 0;
+    background-color: var(--orange);
+}
+
+.a-u__hero__inner-text {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.a-c__hero__inner__img {
+    position: relative;
+    top: -60px;
 }
 
 
