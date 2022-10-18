@@ -295,6 +295,7 @@ select:-webkit-autofill:focus {
 }
 
 .divide__item-text {
+    text-decoration: none;
     color: #000000;
     font-weight: 400;
     font-size: 14px;
@@ -1529,6 +1530,66 @@ select:-webkit-autofill:focus {
     background-image: url('../img/ABOUT_COMPANY/v-3.png');
     background-repeat: no-repeat;
     background-position: 20px 615px;
+}
+
+
+/* EXAMPLES */
+
+.examples {
+    background-color: var(--soft-white);
+}
+
+.examples__title-wrapper {
+    position: relative;
+    left: -30px;
+    top: -12px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.examples__title-ellipse {
+    margin-right: 24px;
+    align-items: center;
+}
+
+.examples__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 172.5%;
+}
+
+.examples__line {
+    margin-top: 0;
+    margin-bottom: 34px;
+    height: 4px;
+    border: 0;
+    background-color: var(--sub-gray);
+}
+
+.examples__list {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 1437px; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.examples__item {
+    margin-bottom: 14px;
+}
+
+.examples__item:not(:last-child) {
+    margin-right: 14px;
+}
+
+.examples__img {
+    width: 470px;
+    height: 265px;
+    object-fit: contain;
 }
 
 
