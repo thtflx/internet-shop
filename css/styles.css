@@ -1601,17 +1601,10 @@ select:-webkit-autofill:focus {
 .choosing__title-wrapper {
     display: flex;
     align-items: center;
-    /* position: relative;
-    left: -30px;
-    top: -12px;
-    display: flex;
-    align-items: center; */
 }
 
 .choosing__title-ellipse {
     margin-right: 24px;
-    /* margin-right: 24px;
-    align-items: center; */
 }
 
 .choosing__title {
@@ -1640,8 +1633,6 @@ select:-webkit-autofill:focus {
     margin-right: 10px;
 }
 
-.choosing__card {}
-
 .choosing__card__img {
     width: 114px;
     height: 114px;
@@ -1663,6 +1654,175 @@ select:-webkit-autofill:focus {
     font-weight: 300;
     font-size: 16px;
     line-height: 172.5%;
+}
+
+
+/* RECALLS */
+
+.recalls {
+    padding: 0;
+}
+
+.recalls__container {
+    background-color: var(--yellow);
+}
+
+.recalls__title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.recalls__title-ellipse {
+    margin-right: 24px;
+}
+
+.recalls__title {
+    position: relative;
+    top: 5px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 172.5%;
+}
+
+.recalls__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* .recalls__left-button {
+    width: 45px;
+    height: 45px;
+}
+
+
+
+.recalls__right-button {
+    width: 45px;
+    height: 45px;
+} */
+
+.recalls__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.recalls__item:not(:last-child) {
+    margin-right: 16px;
+}
+
+.recalls__card__wrapper {
+    padding: 25px;
+    width: 468px;
+    height: 332px;
+    background-color: var(--soft-white);
+}
+
+.recalls__card__header {
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recalls__card__title-wrapper {
+    margin: 0;
+}
+
+.recalls__card__title-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 97.37%;
+}
+
+.recalls__card__title-date {
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 97.37%;
+    color: var(--grey);
+}
+
+.recalls__card__rate-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.recalls__card__rate-grade {
+    margin-right: 14px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 97.37%;
+    color: var(--grey);
+}
+
+.recalls__card__rate-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recalls__card__rate-item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.recalls__card__rate-img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.recalls__card__line {
+    margin-top: 0;
+    margin-bottom: 18px;
+    width: 424px;
+    height: 2px;
+    border: 0;
+    background-color: var(--sub-gray);
+}
+
+.recalls__card__info-wrapper {
+    display: flex;
+}
+
+.recalls__card__info-inner {
+    margin-right: 4px;
+}
+
+.recalls__card__info-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.recalls__card__text {
+    align-items: center;
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.recalls__card__link {
+    /* float: left; */
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: var(--orange);
 }
 
 
